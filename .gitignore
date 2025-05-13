@@ -1,48 +1,40 @@
 # Xcode
-*.xcworkspace
-!default.xcworkspace
-*.xcuserdata
-*.xcuserdatad
-*.xcodeproj/project.xcworkspace/xcuserdata
-*.xcodeproj/xcuserdata
-
-# Derived data
-DerivedData/
-build/
-*.build/
-
-# SwiftPM
-.swiftpm
-.build/
-
-# CocoaPods
-Pods/
-
-# Carthage
-Carthage/
-
-# Fastlane
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
-
-# Archives
-*.xcarchive
-
-# Other
-*.moved-aside
+*.xcuserstate
 *.xcscmblueprint
-*.orig
-*.DS_Store
-.idea/
-*.hmap
-*.ipa
+*.xcworkspace
+*.xcuserdata
+*.xccheckout
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.moved-aside
 
-# Symbolicated crash logs
-*.dSYM.zip
-*.dSYM
+# Swift Package Manager
+.build/
+Packages/
+DerivedData/
+.swiftpm/
+.swift-version
 
-# Playground
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Playground support files (optional)
 timeline.xctimeline
 playground.xcworkspace
+
+# Ignore individual playgrounds (если нужно)
+605. Can Place Flowers.playground/
+1071. Greatest Com...of Strings.playground/
+1431. Kids With the...f Candies.playground/
+1768. Merge Strings Alternately.playground/
+
+# Ignore logs
+*.log
+
+# Ignore by folder name
+build/
+*.idea/
+*.vscode/
